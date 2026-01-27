@@ -16,6 +16,8 @@ $(call inherit-product, vendor/lumine/config/common_full_phone.mk)
 
 LUMINE_MAINTAINER := Kumiko
 LUMINE_MAINTAINER_LINK := https://youtu.be/ZKQ-wVXZq5o?si=5AfOaKUykpdLBmq4
+TARGET_ENABLE_BLUR := false
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 PRODUCT_NAME := earth
 PRODUCT_DEVICE := earth
